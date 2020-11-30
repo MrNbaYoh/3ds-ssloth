@@ -3,10 +3,6 @@
 SSLoth is an "exploit" for the SSL system module of the Nintendo 3DS.  
 It makes it possible for anyone to create fake certificates for Nintendo 3DS servers, thus allowing to spoof official servers and perform MitM attacks.
 
-## How does it work?
-
-In firmware version lower than 11.14, the SSL system module does not validate certificate signatures when validating a certificate chain. Consequently, anyone can create fake certificates by injecting their own keys into already existing public certificates.
-
 ## Affected versions
 
 | Firmware | Version | N3DS/N2DS | O3DS/2DS |
@@ -14,6 +10,10 @@ In firmware version lower than 11.14, the SSL system module does not validate ce
 | SAFE_FIRM | all  | ✓ | ✓ |
 | NATIVE_FIRM | 1.0-11.13 | ✓ | ✓ |
 | NATIVE_FIRM | > 11.13  | ✗ | ✗ |
+
+## How does it work?
+
+In firmware versions lower than 11.14, the SSL system module does not validate certificate signatures when validating a certificate chain. Consequently, anyone can create fake certificates by injecting their own keys into already existing public certificates.
 
 ## How do I create my own certificates?
 
