@@ -13,7 +13,7 @@ It is quite simple. Before version 9217, the SSL system module does not validate
 | --- | --- | --- | --- |
 | SAFE_FIRM | all  | ✓ | ✓ |
 | NATIVE_FIRM | 1.0-11.13 | ✓ | ✓ |
-| NATIVE_FIRM | >=11.13  | ✗ | ✗ |
+| NATIVE_FIRM | > 11.13  | ✗ | ✗ |
 
 ## How do I create my own certificates?
 
