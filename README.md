@@ -5,7 +5,7 @@ It makes it possible for anyone to create fake certificates for Nintendo 3DS ser
 
 ## How does it work?
 
-It is quite simple. Before version 9217, the SSL system module does not validate the certificate signatures when validating a certificate chain. Consequently, anyone can generate private/public key pairs and create its own CA certificates from already existing ones.
+It is quite simple. Before version 9217, the SSL system module does not validate the certificate signatures when validating a certificate chain. Consequently, anyone can generate private/public key pairs and create their own CA certificates from already existing ones.
 
 ## Affected versions
 
