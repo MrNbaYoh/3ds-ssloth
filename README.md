@@ -5,7 +5,7 @@ It makes it possible for anyone to create fake certificates for Nintendo 3DS ser
 
 ## How does it work?
 
-Before firmware version 11.14, the SSL system module does not validate certificate signatures when validating a certificate chain. Consequently, anyone can create fake certificates by injecting their own keys in already existing public certificates.
+In firmware version lower than 11.14, the SSL system module does not validate certificate signatures when validating a certificate chain. Consequently, anyone can create fake certificates by injecting their own keys into already existing public certificates.
 
 ## Affected versions
 
