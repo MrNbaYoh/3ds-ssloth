@@ -1,4 +1,4 @@
-# SSLoth
+# ![SSLoth logo](https://safecerthax.rocks/img/ssloth/cover.png)
 
 SSLoth is an "exploit" for the SSL system module of the Nintendo 3DS.  
 It makes it possible for anyone to create fake certificates for Nintendo 3DS servers, thus allowing to spoof official servers and perform MitM attacks.
