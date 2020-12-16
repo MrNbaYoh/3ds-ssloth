@@ -39,6 +39,10 @@ It is quite simple, sloths are lazy, just like the SSL system module that does n
 
 In firmware versions lower than 11.14, the SSL system module does not validate certificate signatures when validating a certificate chain. Consequently, anyone can create fake certificates by injecting their own keys into already existing public certificates.
 
+The SSL system module uses the RSA BSAFE MES library to implement SSL/TLS communications. This library is very customizable, and a lot of options can be turned on/off at multiple levels. In particular, according to the documentation, the library requires a "resource list" to be provided. The meaning of this list is to describe which aspects of the library will be activated or not.
+
+Again, according to the documentation, the `R_VERIFY_RES_SIGNATURE` "resource" is needed to perform certificate signatures validation. However, this specific "resource" is not present in the list provided by the SSL module to the library. Hence, it does not validate certificate signatures even though the verification flag is set when creating SSL contexts, for example.
+
 #### How do I create my own certificates?
 
 This section describes how to create a fake CA certificate which you can then use to issue fake signed certificates. To do so you need:
