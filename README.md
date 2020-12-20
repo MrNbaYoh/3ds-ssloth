@@ -27,8 +27,9 @@ Here is a non-exhaustive list of what can be done:
 #### Should I update?
 If you are neither using a custom untrusted DNS nor connected to an unknown untrusted proxy server, you are probably safe. Anyway, if you do not plan to play with SSLoth or use exploits that are based on it, or if you do not understand anything to what I am saying, you should probably update your console.
 #### Can we exploit SSLoth for harmless homebrew-related reasons?
-Yes of course! Here are some exploits based on SSLoth:
+Yes of course! Here are some projects based on SSLoth:
 - [safecerthax](https://safecerthax.rocks/): a remote full chain exploit that uses old vulnerabilities in the SAFE_FIRM to get ARM9 and ARM11 kernel code execution and install B9S.
+- [browser update bypass](https://github.com/MrNbaYoh/3ds-browser-update-bypass-server): a server to bypass the update check that prevents you from using the 3DS browsers on firmware versions <= 11.13.
 - [trailerhax](): a userland remote code execution exploit for the eShop media player.
 
 #### Why SSLoth?
