@@ -30,7 +30,7 @@ If you are neither using a custom untrusted DNS nor connected to an unknown untr
 Yes of course! Here are some projects based on SSLoth:
 - [safecerthax](https://safecerthax.rocks/): a remote full chain exploit that uses old vulnerabilities in the SAFE_FIRM to get ARM9 and ARM11 kernel code execution and install B9S.
 - [browser update bypass](https://github.com/MrNbaYoh/3ds-browser-update-bypass-server): a server to bypass the update check that prevents you from using the 3DS browsers on firmware versions <= 11.13.
-- [trailerhax](): a userland remote code execution exploit for the eShop media player.
+- [trailerhax](https://github.com/MrNbaYoh/trailerhax): a userland remote code execution exploit for the eShop media player.
 
 #### Why SSLoth?
 It is quite simple, sloths are lazy, just like the SSL system module that does not completely verify the server certificates.
